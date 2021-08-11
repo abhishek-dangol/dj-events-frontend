@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import { API_URL } from "@/config/index";
 import styles from "@/styles/Form.module.css";
-import handler from "pages/api/events/[slug]";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import moment from "moment";
@@ -51,7 +50,7 @@ export default function EditEventPage({evt}) {
     }
   };
   const handleInputChange = (e) => {
-    const { name, value } = e.target;a
+    const { name, value } = e.target;
   };
     const imageUploaded = async (e) => {
         const res = await fetch(`${API_URL}/events/${evt.id}`)
