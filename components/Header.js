@@ -40,6 +40,7 @@ export default function Header() {
                     className="btn-secondary btn-icon"
                   >
                     <FaSignOutAlt />
+                    Logout
                   </button>
                 </li>
               </>
