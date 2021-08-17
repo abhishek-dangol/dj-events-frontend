@@ -2,6 +2,8 @@ import styles from '@/styles/Search.module.css'
 import { useState } from 'react';
 import { useRouter } from 'next/router'
 
+
+// @TODO: Search Component
 export default function Search() {
     const [term, setTerm] = useState('')
     const router = useRouter();
