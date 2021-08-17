@@ -5,6 +5,8 @@ import Footer from "./Footer"
 import Showcase from './Showcase'
 import { useRouter } from 'next/router'
 
+// Layout component
+
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter()
     return (
@@ -22,7 +24,7 @@ export default function Layout({ title, keywords, description, children }) {
     );
 }
 
-
+// set the layout props
 Layout.defaultProps = {
     title: 'DJ Events | Find the hottest parties',
     description: 'Find the latest DJ and other musical events',
