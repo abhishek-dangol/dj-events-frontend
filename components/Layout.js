@@ -5,7 +5,7 @@ import Footer from "./Footer"
 import Showcase from './Showcase'
 import { useRouter } from 'next/router'
 
-// Layout component
+// Layout component /// hello world
 
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter()
